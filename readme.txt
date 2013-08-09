@@ -10,11 +10,13 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 Simple Revision Control is a plugin for WordPress which gives the user simple control over the Revision functionality.
 
-Asset image: [My Filing Cabinet](http://www.flickr.com/photos/theenmoy/8078124630/) by [Theen Moy](http://www.flickr.com/photos/theenmoy/) Creative Common
-
 == Description ==
 
 Simple Revision Control is a plugin for WordPress which gives the user simple control over the Revision functionality.
+
+= Asset image =
+
+[My Filing Cabinet](http://www.flickr.com/photos/theenmoy/8078124630/) by [Theen Moy](http://www.flickr.com/photos/theenmoy/) Creative Common
 
 = Translators =
 
