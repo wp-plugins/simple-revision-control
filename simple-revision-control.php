@@ -3,7 +3,7 @@
 Plugin Name: Simple Revision Control
 Plugin URI: http://iworks.pl/simple-revision-control
 description: Simple Revision Control is a plugin for WordPress which gives the user simple control over the Revision functionality.
-Version: trunk
+Version: 1.1
 Author: Marcin Pietrzak
 Author URI: http://iworks.pl/
 License: GPLv2 or later
@@ -36,7 +36,7 @@ if ( !defined( 'WPINC' ) ) {
 /**
  * static options
  */
-define( 'SIMPLE_REVISION_CONTROL_VERSION', 'trunk' );
+define( 'SIMPLE_REVISION_CONTROL_VERSION', '1.1' );
 define( 'SIMPLE_REVISION_CONTROL_PREFIX',  'simple_revision_control_' );
 
 require_once dirname(__FILE__).'/includes/common.php';
