@@ -29,24 +29,17 @@ if ( class_exists( 'SimpleRevisionControl' ) ) {
 
 class SimpleRevisionControl
 {
-    private $dev;
     private $options;
-    private static $base;
     private static $capability;
     private static $dir;
-    private static $version;
-    private $working_mode;
 
     public function __construct()
     {
         /**
          * static settings
          */
-        $this->version         = '0.0.0';
-        $this->base            = dirname( __FILE__ );
-        $this->dir             = basename( dirname( $this->base ) );
+        $this->dir             = basename( dirname( dirname( __FILE__ )) );
         $this->capability      = apply_filters( 'simple_revision_control_capability', 'manage_options' );
-        $this->dev             = ( defined( 'IWORKS_DEV_MODE' ) && IWORKS_DEV_MODE )? '.dev':'';
         /**
          * generate
          */
@@ -56,18 +49,6 @@ class SimpleRevisionControl
          */
         global $simple_revision_control_options;
         $this->options = $simple_revision_control_options;
-    }
-
-    public function get_version( $file = null )
-    {
-        if ( defined( 'IWORKS_DEV_MODE' ) && IWORKS_DEV_MODE ) {
-            if ( null != $file ) {
-                $file = dirname( dirname ( __FILE__ ) ) . $file;
-                return md5_file( $file );
-            }
-            return rand( 0, 99999 );
-        }
-        return $this->version;
     }
 
     public function init()
@@ -113,14 +94,9 @@ class SimpleRevisionControl
         );
     }
 
-    public function update()
-    {
-    }
-
     public function render_option_page()
     {
         include_once ABSPATH.'wp-admin/includes/meta-boxes.php';
-        $this->update();
 ?>
 <div class="wrap">
     <?php screen_icon(); ?>

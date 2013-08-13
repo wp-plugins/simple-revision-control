@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simple Revision Control trunk\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/simple-revision-control\n"
-"POT-Creation-Date: 2013-08-08 06:56:31+00:00\n"
+"POT-Creation-Date: 2013-08-13 13:42:58+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -16,12 +16,22 @@ msgstr ""
 msgid "Number of revisions"
 msgstr ""
 
-#: etc/options.php:22
+#: etc/options.php:17
+msgid ""
+"Set <b>0</b> to unlimited revisions, set <b>1</b> to no revisions or set any "
+"other number."
+msgstr ""
+
+#: etc/options.php:23
 msgid "Post"
 msgstr ""
 
-#: etc/options.php:30
+#: etc/options.php:31
 msgid "Page"
+msgstr ""
+
+#: etc/options.php:54
+msgid "Custom Post Types"
 msgstr ""
 
 #: includes/class-iworks-options.php:92
@@ -32,38 +42,38 @@ msgstr ""
 msgid "Save Changes"
 msgstr ""
 
-#: includes/class-simple-revision-control.php:98
+#: includes/class-simple-revision-control.php:79
 msgid "Settings"
 msgstr ""
 
-#: includes/class-simple-revision-control.php:100
+#: includes/class-simple-revision-control.php:81
 msgid "Donate"
 msgstr ""
 
-#: includes/class-simple-revision-control.php:108
-#: includes/class-simple-revision-control.php:109
+#: includes/class-simple-revision-control.php:89
+#: includes/class-simple-revision-control.php:90
 msgid "Revisions"
 msgstr ""
 
 #. #-#-#-#-#  simple-revision-control.pot (Simple Revision Control trunk)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
-#: includes/class-simple-revision-control.php:127
+#: includes/class-simple-revision-control.php:103
 msgid "Simple Revision Control"
 msgstr ""
 
-#: includes/class-simple-revision-control.php:139
+#: includes/class-simple-revision-control.php:115
 msgid "Need Assistance?"
 msgstr ""
 
-#: includes/class-simple-revision-control.php:141
+#: includes/class-simple-revision-control.php:117
 msgid "Problems? The links bellow can be very helpful to you"
 msgstr ""
 
-#: includes/class-simple-revision-control.php:143
+#: includes/class-simple-revision-control.php:119
 msgid "http://wordpress.org/tags/simple-revision-control"
 msgstr ""
 
-#: includes/class-simple-revision-control.php:143
+#: includes/class-simple-revision-control.php:119
 msgid "Wordpress Help Forum"
 msgstr ""
 

@@ -30,7 +30,7 @@ $simple_revision_control_options = new IworksOptions();
 $simple_revision_control_options->set_option_function_name( 'simple_revision_control_options' );
 $simple_revision_control_options->set_option_prefix( SIMPLE_REVISION_CONTROL_PREFIX );
 
-Function simple_revision_control_options_init()
+function simple_revision_control_options_init()
 {
     global $simple_revision_control_options;
     $simple_revision_control_options->options_init();

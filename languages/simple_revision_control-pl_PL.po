@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Simple Revision Control trunk\n"
 "Report-Msgid-Bugs-To: http://wordpress.org/tag/simple-revision-control\n"
-"POT-Creation-Date: 2013-08-08 06:48:46+00:00\n"
-"PO-Revision-Date: 2013-08-08 08:56+0100\n"
+"POT-Creation-Date: 2013-08-13 13:36:07+00:00\n"
+"PO-Revision-Date: 2013-08-13 15:41+0100\n"
 "Last-Translator: Marcin Pietrzak <marcin@iworks.pl>\n"
 "Language-Team: Marcin Pietrzak <marcin@iworks.pl>\n"
 "Language: \n"
@@ -17,13 +17,21 @@ msgstr ""
 msgid "Number of revisions"
 msgstr "Liczba wersji"
 
-#: etc/options.php:22
+#: etc/options.php:17
+msgid "Set <b>0</b> to unlimited revisions, set <b>1</b> to no revisions or set any other number."
+msgstr "Ustaw <b>0</b> żeby nie limitować liczby wersji, <b>1</b> żeby nie było wersji lub wybierz konkretną liczbę wersji."
+
+#: etc/options.php:23
 msgid "Post"
 msgstr "Wpis"
 
-#: etc/options.php:30
+#: etc/options.php:31
 msgid "Page"
 msgstr "Strona"
+
+#: etc/options.php:54
+msgid "Custom Post Types"
+msgstr "Własne Typy Wpisów"
 
 #: includes/class-iworks-options.php:92
 msgid "An error occurred while getting the configuration."
@@ -33,40 +41,40 @@ msgstr "Wystąpił błąd w czasie zapisywania konfiguracji"
 msgid "Save Changes"
 msgstr "Zapisz zmiany"
 
-#: includes/class-simple-revision-control.php:98
+#: includes/class-simple-revision-control.php:79
 msgid "Settings"
 msgstr "Ustawienia"
 
-#: includes/class-simple-revision-control.php:100
+#: includes/class-simple-revision-control.php:81
 msgid "Donate"
 msgstr "Datek"
 
-#: includes/class-simple-revision-control.php:108
-#: includes/class-simple-revision-control.php:109
+#: includes/class-simple-revision-control.php:89
+#: includes/class-simple-revision-control.php:90
 msgid "Revisions"
 msgstr "Wersje"
 
 #. #-#-#-#-#  simple-revision-control.pot (Simple Revision Control trunk)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
-#: includes/class-simple-revision-control.php:127
+#: includes/class-simple-revision-control.php:103
 msgid "Simple Revision Control"
 msgstr "Prosta Kontrola Wersji"
 
-#: includes/class-simple-revision-control.php:139
+#: includes/class-simple-revision-control.php:115
 msgid "Need Assistance?"
 msgstr "Potrzebujesz pomocy?"
 
-#: includes/class-simple-revision-control.php:141
+#: includes/class-simple-revision-control.php:117
 msgid "Problems? The links bellow can be very helpful to you"
 msgstr "Kłopoty? Poniższe odnośniki mogą pomóc"
 
-#: includes/class-simple-revision-control.php:143
+#: includes/class-simple-revision-control.php:119
 msgid "http://wordpress.org/tags/simple-revision-control"
 msgstr "http://wordpress.org/tags/simple-revision-control"
 
-#: includes/class-simple-revision-control.php:143
+#: includes/class-simple-revision-control.php:119
 msgid "Wordpress Help Forum"
-msgstr "Forum WordPressa"
+msgstr "Forum WordPressa (en)"
 
 #. Plugin URI of the plugin/theme
 msgid "http://iworks.pl/simple-revision-control"

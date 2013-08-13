@@ -32,17 +32,26 @@ If you have created your own language pack, or have an update of an existing one
 
 == Frequently Asked Questions ==
 
+= Why my CPT is not listed? =
+
+You can setup number of revisions only for post types witch supports `revisions`  See more: [function Reference / register post type / parameters / supports](http://codex.wordpress.org/Function_Reference/register_post_type#Parameters)
+
 = My website is not in English, will simple-revision-control work? =
 
-simple-revision-control plugin will work on websites in the following languages:
+Simple Revision Control plugin will work on websites in the following languages:
 
 * Polish
 
 == Screenshots ==
 
 1. Simple Revision Control set up.
+1. Simple Revision Control set up with CPT.
 
 == Changelog ==
+
+= 1.1 =
+
+* IMPROVMENT: added revision control to cuostom post types
 
 = 1.0 =
 
