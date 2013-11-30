@@ -1,14 +1,14 @@
 === Simple Revision Control ===
 Contributors: iworks
 Donate link: http://iworks.pl/donate/simple-revision-control.php
-Tags: revision, revisions, post, page
+Tags: revision, revisions, post, page, custom post type
 Requires at least: 3.6
-Tested up to: 3.6
-Stable tag: 1.1
+Tested up to: 3.7.1
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Simple Revision Control is a plugin for WordPress which gives the user simple control over the Revision functionality.
+Simple Revision Control is a plugin for WordPress which gives the user simple control over the Revision functionality. Including custom post types.
 
 == Description ==
 
@@ -51,7 +51,11 @@ Simple Revision Control plugin will work on websites in the following languages:
 
 = 1.1 =
 
-* IMPROVMENT: added revision control to cuostom post types
+* CHECK: compatibility with WordPress 3.7
+
+= 1.1 =
+
+* IMPROVEMENT: added revision control to custom post types
 
 = 1.0 =
 
