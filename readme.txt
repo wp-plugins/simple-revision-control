@@ -49,7 +49,7 @@ Simple Revision Control plugin will work on websites in the following languages:
 
 == Changelog ==
 
-= 1.1 =
+= 1.2 =
 
 * CHECK: compatibility with WordPress 3.7
 
