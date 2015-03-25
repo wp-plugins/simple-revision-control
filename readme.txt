@@ -3,7 +3,7 @@ Contributors: iworks
 Donate link: http://iworks.pl/donate/simple-revision-control.php
 Tags: revision, revisions, post, page, custom post type
 Requires at least: 3.6
-Tested up to: 3.7.1
+Tested up to: 4.1.1
 Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -21,6 +21,7 @@ Simple Revision Control is a plugin for WordPress which gives the user simple co
 = Translators =
 
 * Polish (pl_PL) - [Marcin Pietrzak](http://iworks.pl/)
+* Swedish (sv_SE) - Peter from [WP Daily Themes](http://www.wpdailythemes.com/)
 
 If you have created your own language pack, or have an update of an existing one, you can send [gettext PO and MO files](http://codex.wordpress.org/Translating_WordPress) to me so that I can bundle it into simple-revision-control. You can [download the latest POT file from here](http://plugins.svn.wordpress.org/simple-revision-control/trunk/languages/simple-revision-control.pot).
 
@@ -48,6 +49,10 @@ Simple Revision Control plugin will work on websites in the following languages:
 1. Simple Revision Control set up with CPT.
 
 == Changelog ==
+
+= 1.3 =
+
+* IMPROVEMENT: Added Swedish translation, created by Peter from WP Daily Themes
 
 = 1.2 =
 
