@@ -4,7 +4,7 @@ Donate link: http://iworks.pl/donate/simple-revision-control.php
 Tags: revision, revisions, post, page, custom post type
 Requires at least: 3.6
 Tested up to: 4.1.1
-Stable tag: 1.2
+Stable tag: 1.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,7 @@ Simple Revision Control plugin will work on websites in the following languages:
 
 = 1.3 =
 
+* 2015-03-25
 * IMPROVEMENT: Added Swedish translation, created by Peter from WP Daily Themes
 
 = 1.2 =
